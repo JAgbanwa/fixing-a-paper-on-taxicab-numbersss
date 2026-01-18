@@ -1,0 +1,28 @@
+***********(Removed example 2)**********
+
+\begin{example}
+Suppose $\Delta_2 = 1000$ and has divisors, 
+    
+$r_{2, i} = \{1,2,4,5,8,10,20,25,40,50,100,125,200,250,500,1000\}$ 
+
+it should be ensured that the chosen divisors for $r_{2,1}$ and $r_{2,2}$ be lesser than $\sqrt{\Delta_2}$ which is in this case $\sqrt{1000}$, if not the unknowns to be solved for would be $0$ or negative values which is often not the goal of these sums.
+Given that $\sqrt{1000} \approx 32$, the divisors that would be considered in this case are: $\{2,4,5,8,10,20,25\}$. The set of divisors that yield integer solutions specifically as just illustrated in the previous sentence could be, on the basis of $\Delta_2$ being even, and the divisors, $\{5,25\}$ being odd, these will be trimmed out to have the following divisors sure to yield integer solutions to the sums: $\{2,4,8,10,20\}$.
+
+\begin{align*} 
+    (\frac{1000 + 2^2}{2 \cdot 2})^2 + (\frac{1000 - 4^2}{2 \cdot 4})^2 = (\frac{1000 - 2 ^2}{2 \cdot 2})^2 + (\frac{1000 + 4 ^2}{2 \cdot 4})^2
+\end{align*}
+\begin{align*}
+     251^2 + 123^2 = 249^2 + 127^2
+\end{align*}
+
+
+\begin{align*} 
+    (\frac{1000 + 10^2}{2 \cdot 10})^2 + (\frac{1000 - 20^2}{2 \cdot 20})^2 = (\frac{1000 - 10 ^2}{2 \cdot 10})^2 + (\frac{1000 + 20 ^2}{2 \cdot 20})^2
+\end{align*}
+
+\begin{align*}
+    55^2 + 15^2 = 45^2 + 35^2 = 3250
+\end{align*}
+
+
+\end{example}
