@@ -26,3 +26,12 @@ Given that $\sqrt{1000} \approx 32$, the divisors that would be considered in th
 
 
 \end{example}
+
+***********(Removed implications)**********
+
+\subsubsection*{Implications}
+\begin{itemize}
+\item \textbf{Predictability}: The linear relationship allows pre-computation of solution sizes.
+\item \textbf{Computational Limits}: For $c_1 = 100$, we expect $\sim 140$-digit numbers, requiring arbitrary-precision arithmetic.
+\item \textbf{Generator Strength}: The growth rate is sub-exponential ($\sim 10^{1.4 \cdot c_1}$) compared to naive four-variable exhaustive search.
+\end{itemize}
