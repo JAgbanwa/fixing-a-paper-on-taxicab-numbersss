@@ -27,6 +27,37 @@ Given that $\sqrt{1000} \approx 32$, the divisors that would be considered in th
 
 \end{example}
 
+***********(Combinatorial insight)**********
+
+\textbf{Combinatorial insight}:
+
+Consider the deduced formulas for $C$ above (this is also applicable to the formula for $B$):
+
+\begin{align*}
+     C = \frac{\Delta_2 - r_{2,1} ^2}{2 \cdot r_{2,1}}
+\end{align*}
+
+On multiplying both sides of the equation above, the following is yielded:
+
+\begin{align}
+    2 \cdot r_{2,1} \cdot C + r_{2,1} ^2 = \Delta_2
+\end{align}
+
+which is no different from:
+
+\begin{align*}
+ \textcolor{red}{C^2}  + 2 \cdot r_{2,1} \cdot C + r_{2,1} ^2 = \Delta_2 + \textcolor{red}{C^2}
+\end{align*}
+
+and be also expressed as:
+
+\begin{align}
+ (\textcolor{red}{C} + r_{2,1} )^2 = \Delta_2 + \textcolor{red}{C^2}
+\end{align}
+
+The left-hand side of the equation just above is the simplified version of Pascal's triangle for second powers. The key is the difference of $C^2$.
+
+
 ***********(Removed implications)**********
 
 \subsubsection*{Implications}
