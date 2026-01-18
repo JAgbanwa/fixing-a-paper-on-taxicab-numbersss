@@ -35,3 +35,10 @@ Given that $\sqrt{1000} \approx 32$, the divisors that would be considered in th
 \item \textbf{Computational Limits}: For $c_1 = 100$, we expect $\sim 140$-digit numbers, requiring arbitrary-precision arithmetic.
 \item \textbf{Generator Strength}: The growth rate is sub-exponential ($\sim 10^{1.4 \cdot c_1}$) compared to naive four-variable exhaustive search.
 \end{itemize}
+
+***********(Removed a chunk of the conclusion)**********
+
+We have shown that this approach extends in principle to $n = 4$ and $n = 5$, and while solutions for the quadruples $A,B,C,D$ get sparser with increasing powers, conditions have been laid out under which formulas for these cases may be constructed with which we could search for solutions. Our findings could lead to new insights into long-standing open problems such as the classification of generalized taxicab numbers and the Parkin–Lander-Selfridge conjecture.
+
+A sequel will explore extensions to $n \geq 4$ building on the divisor and combinatorial framework established here. We believe the framework presented here may serve as a foundation for a deeper combinatorial theory of equal power sums.
+
