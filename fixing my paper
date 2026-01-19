@@ -187,3 +187,28 @@ are perfect squares, enabling closed-form rational solutions.
   note      = {\url{https://sites.google.com/site/tpiezas/}},
   urldate   = {2025-01-01}
 }
+
+***********(Removed heuristics)**********
+
+\subsection*{Heuristic on Divisor Bounds for Integer Solutions}
+
+\textbf{Heuristic.}
+Let \( \Delta_n \in \mathbb{Z}_{>0} \), and let \( r \in \mathbb{Z}_{>0} \) be a divisor of \( \Delta_n \). In the symbolic generator formulas developed for \( A^n + B^n = C^n + D^n \), expressions involving radicals of the form
+\[
+\sqrt{12 \Delta_n \cdot r - 3r^4}
+\]
+must evaluate to integers for the resulting values \( A, B, C, D \) to be integers.
+
+As \( r \) increases, the quartic term \( 3r^4 \) in the radicand grows significantly faster than the linear term \( 12 \Delta_n \cdot r \). Therefore, the radicand becomes negative or non-square when \( r \) is large, making integer outputs unlikely.
+
+We thus propose the heuristic that integer solutions for the symbolic generator are most likely when
+\[
+r \leq \sqrt[n]{\Delta_n}.
+\]
+This balances the growth of both terms in the radicand and aligns with empirical success in finding integer-valued solutions in Sections 2.1 and 2.2 for \( n = 2 \) and \( n = 3 \).
+
+To ensure strictly positive non-zero integer solutions,
+
+\[
+r  < \sqrt[n]{\Delta_n}.
+\]
