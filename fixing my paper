@@ -177,3 +177,13 @@ This inequality ensures that expressions such as  $\frac{\Delta_n - r^2}{2r}$  a
 \]
 are perfect squares, enabling closed-form rational solutions.
 \end{conjecture}
+
+***********(Removed a citation)**********
+
+@misc{Piezas2009,
+  author    = {Tito Piezas III},
+  title     = {A Collection of Algebraic Identities},
+  year      = {2009},
+  note      = {\url{https://sites.google.com/site/tpiezas/}},
+  urldate   = {2025-01-01}
+}
