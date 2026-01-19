@@ -212,3 +212,12 @@ To ensure strictly positive non-zero integer solutions,
 \[
 r  < \sqrt[n]{\Delta_n}.
 \]
+
+***********(Removed implications again somehow)**********
+
+\noindent
+\textbf{Implications:}
+\begin{itemize}
+\item \textbf{Precision Control}: Choose $c_1$ to target solutions of specific sizes (e.g., $c_1=100 \approx 140$ digits).
+\item \textbf{Computational Feasibility}: Even for $c_1=100$, the generator computes solutions in milliseconds (vs. brute-force's impossibility).
+\end{itemize}
