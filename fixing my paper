@@ -33,7 +33,7 @@ Given that $\sqrt{1000} \approx 32$, the divisors that would be considered in th
 
 Consider the deduced formulas for $C$ above (this is also applicable to the formula for $B$):
 
-\begin{align*}
+\begin{align*} 
      C = \frac{\Delta_2 - r_{2,1} ^2}{2 \cdot r_{2,1}}
 \end{align*}
 
