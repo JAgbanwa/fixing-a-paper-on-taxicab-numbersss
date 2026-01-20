@@ -221,3 +221,9 @@ r  < \sqrt[n]{\Delta_n}.
 \item \textbf{Precision Control}: Choose $c_1$ to target solutions of specific sizes (e.g., $c_1=100 \approx 140$ digits).
 \item \textbf{Computational Feasibility}: Even for $c_1=100$, the generator computes solutions in milliseconds (vs. brute-force's impossibility).
 \end{itemize}
+
+***********(Removed implications again somehow)**********
+
+\section{The equation: \texorpdfstring{$A^n + B^n = C^n + D^n$}{An + Bn = Cn + Dn}}
+
+With respect to the equation, $A^n + B^n = C^n + D^n$ , we will focus primarily on cases of $ n = 2$ and $n = 3$.
