@@ -227,3 +227,7 @@ r  < \sqrt[n]{\Delta_n}.
 \section{The equation: \texorpdfstring{$A^n + B^n = C^n + D^n$}{An + Bn = Cn + Dn}}
 
 With respect to the equation, $A^n + B^n = C^n + D^n$ , we will focus primarily on cases of $ n = 2$ and $n = 3$.
+
+***********(Removed a chunk of the intros)**********
+
+appear in work of Delone and Faddeev \cite{DeloneFaddeev1964} on cubic irrationalities, and more recently
