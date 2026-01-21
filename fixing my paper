@@ -231,3 +231,5 @@ With respect to the equation, $A^n + B^n = C^n + D^n$ , we will focus primarily 
 ***********(Removed a chunk of the intros)**********
 
 appear in work of Delone and Faddeev \cite{DeloneFaddeev1964} on cubic irrationalities, and more recently
+
+: the equation defines a cubic surface, and its rational points can be studied through descent (see Moody \cite{Moody1994})
