@@ -241,3 +241,16 @@ appear in work of Delone and Faddeev \cite{DeloneFaddeev1964} on cubic irrationa
 ***********(Removed yet another chunk of the intro again!)***********
 
 , a phenomenon noted by Ziegler \cite{Ziegler2006} in the context of cubic Thue equations
+
+***********(Removed another wrong chunk of the intro)***********
+
+Euler gave the first known polynomial parametrization \cite{Euler1772}: for any \(m, n\),
+
+\[
+\begin{aligned}
+A &= m(m^3 + 2n^3), & B &= n(2m^3 + n^3), \\
+C &= m(m^3 - n^3), & D &= n(2m^3 + n^3 - m^3),
+\end{aligned}
+\]
+
+which yields infinitely many integer solutions, though not all.
