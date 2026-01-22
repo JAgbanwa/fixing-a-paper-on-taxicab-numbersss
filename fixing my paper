@@ -233,3 +233,7 @@ With respect to the equation, $A^n + B^n = C^n + D^n$ , we will focus primarily 
 appear in work of Delone and Faddeev \cite{DeloneFaddeev1964} on cubic irrationalities, and more recently
 
 : the equation defines a cubic surface, and its rational points can be studied through descent (see Moody \cite{Moody1994})
+
+***********(Removed a chunk of the intros again!)***********
+
+; thus, parametric and algebraic methods are essential for finding large solutions, as emphasized in surveys of computational Diophantine problems (Bremner \cite{Bremner2012})
