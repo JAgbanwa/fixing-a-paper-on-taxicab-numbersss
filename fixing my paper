@@ -458,3 +458,7 @@ D(r_{3,2})^3 = B(r_{3,2})^3 + \Delta_3,
 \]
 where \( r_{3,1}, r_{3,2} \in \mathbb{Z}_{>0} \) are fixed integers (divisors of \( \Delta_3 \)), and \( \Delta_3 \in \mathbb{Z}_{>0} \) is a fixed parameter.
 \end{theorem}
+
+***********(Removed yet another chunk of the intro again!)***********
+
+The celebrated case of $1729$ famously associated with G. H. Hardy and Srinivasa Ramanujan, exemplifies the allure of these numerical relationships.
