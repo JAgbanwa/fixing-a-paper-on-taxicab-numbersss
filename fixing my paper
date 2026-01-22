@@ -466,3 +466,18 @@ The celebrated case of $1729$ famously associated with G. H. Hardy and Srinivasa
 ***********(Removed yet another chunk of the intro again!)***********
 
 In the 20th century, more general parametrizations were discovered via \emph{elliptic curves}
+
+***********(Removed a chunk of preliminary!)***********
+
+\begin{example}
+
+Suppose $\Delta_2 = 24$, with divisors
+\[
+r_{2,i} = \{1,2,3,4,6,8,12,24\}.
+\]
+The divisors for which integer values are yielded in the expressions below must satisfy
+\[
+r_{2,i} \leqslant \sqrt{\Delta_2},
+\quad \text{i.e. } r_{2,i} \leqslant \sqrt{24}.
+\]
+\end{example}
