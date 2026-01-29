@@ -391,3 +391,23 @@ cluster at specific parameter values. Generated using SageMath
 with the closed-form formulas developed in this paper.}
 \label{fig:crystal_structure}
 \end{figure}
+
+********************************************************************(Removed section 3.8)
+
+Wolfram GPT returns the following set of solutions:
+
+\begin{align*}
+    C = \frac{-19683 + 6561\cdot\left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2}
+\end{align*}
+
+\begin{align*}
+    B = \frac{-354294 + 19683 \cdot\left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12}
+\end{align*}
+
+\begin{align*}
+    A = \frac{-19683 + 6561\cdot\left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2} + 19683
+\end{align*}
+
+\begin{align*}
+    D =  \frac{-354294 + 19683 \cdot\left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 59049
+\end{align*}
