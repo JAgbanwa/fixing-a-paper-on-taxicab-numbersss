@@ -474,3 +474,12 @@ Rearranging gives
 =
 8\cdot3^{16}.
 \end{align}
+
+***********************************************************************************(Removed intro of section 3.8)
+
+We begin with the Diophantine equation
+\begin{align}
+59049\,C^2 + 1162261467\,C + 7625597484987
+=
+177147\,B^2 + 10460353203\,B + 205891132094649.
+\end{align}
