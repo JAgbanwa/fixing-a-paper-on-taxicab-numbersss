@@ -431,3 +431,46 @@ A = \frac{-6561 + 2187 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} +
 \[
 D = \frac{-118098 + 6561\cdot\left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 19683
 \]
+
+***********************************************************************************(Removed a part of section 3.7)
+
+Multiply both sides by $4$:
+\begin{align}
+4C^2 + 4\cdot3^8 C + 4\cdot3^{16}
+=
+12B^2 + 4\cdot3^{10} B + 4\cdot3^{18}.
+\end{align}
+
+For the left-hand side,
+\[
+4C^2 + 4\cdot3^8 C + 3^{16}
+=
+(2C + 3^8)^2,
+\]
+hence
+\[
+\text{LHS} = (2C + 3^8)^2 + 3^{16}.
+\]
+
+For the right-hand side,
+\[
+12B^2 + 4\cdot3^{10} B + 4\cdot3^{18}
+=
+3(2B + 3^9)^2 + 3^{18}.
+\]
+
+Therefore,
+\begin{align}
+(2C + 3^8)^2 + 3^{16}
+=
+3(2B + 3^9)^2 + 3^{18}.
+\end{align}
+
+Rearranging gives
+\begin{align}
+(2C + 3^8)^2 - 3(2B + 3^9)^2
+=
+3^{18} - 3^{16}
+=
+8\cdot3^{16}.
+\end{align}
