@@ -392,7 +392,7 @@ with the closed-form formulas developed in this paper.}
 \label{fig:crystal_structure}
 \end{figure}
 
-********************************************************************(Removed section 3.8)
+***********************************************************************************(Removed section 3.8)
 
 Wolfram GPT returns the following set of solutions:
 
@@ -411,3 +411,23 @@ Wolfram GPT returns the following set of solutions:
 \begin{align*}
     D =  \frac{-354294 + 19683 \cdot\left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 59049
 \end{align*}
+
+***********************************************************************************(Removed section 3.7)
+
+Wolfram GPT returns the following set of solutions:
+
+\[
+C = \frac{-6561 + 2187 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2}
+\]
+
+\[
+B = \frac{-118098 + 6561 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12}
+\]
+
+\[
+A = \frac{-6561 + 2187 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2} + 6561
+\]
+
+\[
+D = \frac{-118098 + 6561\cdot\left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 19683
+\]
