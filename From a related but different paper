@@ -483,3 +483,27 @@ We begin with the Diophantine equation
 =
 177147\,B^2 + 10460353203\,B + 205891132094649.
 \end{align}
+
+***********************************************************************************(Removed section 3.6)
+
+\begin{align}
+    6561\cdot C^2 + 14348907 \cdot C + 10460353203 = 19683 \cdot B^2 + 129140163 \cdot B + 282429536481
+\end{align}
+
+Wolfram GPT returns the following set of solutions:
+
+\[
+C = \frac{-2187 + 729 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2}
+\]
+
+\[
+B = \frac{-39366 + 2187 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12}
+\]
+
+\[
+A = \frac{-2187 + 729 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2} + 2187
+\]
+
+\[
+D =  \frac{-39366 + 2187 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 6561
+\]
