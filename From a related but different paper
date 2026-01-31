@@ -551,3 +551,32 @@ Rearranging gives
 6\cdot3^{13}.
 \end{align}
 
+***********************************************************************************(Removed a section of 3.6)
+
+\subsubsection*{Step 4: Parametrisation of the Pell equation}
+
+\begin{lemma}
+All integer solutions of
+\[
+x^2 - 3y^2 = 726
+\]
+are given by
+\[
+x + y\sqrt{3}
+=
+(15+7\sqrt{3})(7+4\sqrt{3})^{c_1},
+\qquad c_1\in\mathbb{Z}.
+\]
+\end{lemma}
+
+Equivalently,
+\[
+\begin{aligned}
+x &=
+\frac{(15+7\sqrt{3})(7+4\sqrt{3})^{c_1}
++(15-7\sqrt{3})(7-4\sqrt{3})^{c_1}}{2},\\[6pt]
+y &=
+\frac{(15+7\sqrt{3})(7+4\sqrt{3})^{c_1}
+-(15-7\sqrt{3})(7-4\sqrt{3})^{c_1}}{2\sqrt{3}}.
+\end{aligned}
+\]
