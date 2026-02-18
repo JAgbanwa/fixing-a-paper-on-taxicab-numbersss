@@ -580,3 +580,27 @@ y &=
 -(15-7\sqrt{3})(7-4\sqrt{3})^{c_1}}{2\sqrt{3}}.
 \end{aligned}
 \]
+
+***********************************************************************************(Removed an earlier part of section 3.5)
+
+Consider the equation
+
+\begin{align}
+    2187 \cdot C^2 + 1594323 \cdot C + 387420489 = 6561 \cdot B^2 + 14348907 \cdot B + 10460353203
+\end{align}
+
+\[
+C = \frac{-729 + 243 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2}
+\]
+
+\[
+B = \frac{-13122 + 729 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12}
+\]
+
+\[
+A = \frac{-729 + 243 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2} + 729
+\]
+
+\[
+D = \frac{-13122 + 729 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 2187
+\]
