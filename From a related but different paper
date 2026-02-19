@@ -622,3 +622,22 @@ A = \frac{-243 + 81 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (-
 \[
 D = \frac{-4374 + 243 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 729
 \]
+
+
+***********************************************************************************(Removed an earlier part of section 3.3)
+
+\[
+C = \frac{-81 + 27 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2}
+\]
+
+\[
+B = \frac{-1458 + 81 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12}
+\]
+
+\[
+A = \frac{-81 + 27 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{2} + 81
+\]
+
+\[
+D = \frac{-1458 + 81 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 243
+\]
