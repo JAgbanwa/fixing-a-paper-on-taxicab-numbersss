@@ -688,3 +688,6 @@ Given that $A = C + r_{3,1}$, and  $D = B + r_{3,2}$,
     D_2 = \frac{162 - 9\left[(-7 + 5\sqrt{3}) \cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1} \right]}{12} + 27
 \end{align*}
 
+(something minor from intro of paper)
+
+, with the potential for generalization to higher-order cases especially when the divisors, $r_{3,1}$ and $r_{3,2}$ are larger numbers like powers of 3
