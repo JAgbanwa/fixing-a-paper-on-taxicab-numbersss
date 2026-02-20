@@ -669,3 +669,22 @@ D = \frac{-486 + 27 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 
 \begin{align*} 
      3 \cdot 9 \cdot C^2 +  3 \cdot 9 ^2 \cdot C + 9 ^3 = 3 \cdot 27 \cdot B^2 +  3 \cdot 27 ^2 \cdot B + 27 ^3
 \end{align*}
+
+As solution to \eqref{2.15}, Wolfram GPT returns the following as solution to $C,B$:
+
+\begin{align*}
+    B_2 =  \frac{-162 + 9\left[(-7 + 5\sqrt{3}) \cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1} \right]}{12}
+\end{align*}
+\begin{align*}
+     C_2 = \frac{-9 +3 \cdot \left[(-15 + 7 \sqrt{3}) \cdot (7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}  \right]}{4} 
+\end{align*}
+
+Given that $A = C + r_{3,1}$, and  $D = B + r_{3,2}$,
+
+\begin{align*}
+    A_2 = \frac{18 - {3} \cdot \left[(-15 + 7 \sqrt{3}) \cdot (7 - 4\sqrt{3})^{c_1} + (- 15 - 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}  \right]}{4} + 9
+\end{align*}
+\begin{align*}
+    D_2 = \frac{162 - 9\left[(-7 + 5\sqrt{3}) \cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1} \right]}{12} + 27
+\end{align*}
+
