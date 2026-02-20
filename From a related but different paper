@@ -690,4 +690,6 @@ Given that $A = C + r_{3,1}$, and  $D = B + r_{3,2}$,
 
 (something minor from intro of paper)
 
-, with the potential for generalization to higher-order cases especially when the divisors, $r_{3,1}$ and $r_{3,2}$ are larger numbers like powers of 3
+, with the potential for generalization to higher-order cases especially when the divisors, $r_{3,1}$ and $r_{3,2}$ are larger numbers like powers of 3 .
+We begin by analyzing known taxicab structures and then develop a recursive construction that yields two distinct cube sum decompositions for each value of the parameter.
+We conclude with a discussion on how this method might be extended to produce families of numbers with three or more cube sum decompositions, offering a pathway toward a deeper structural understanding of taxicab numbers and their generalizations.
