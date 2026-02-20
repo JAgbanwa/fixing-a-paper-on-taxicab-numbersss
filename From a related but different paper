@@ -664,3 +664,8 @@ A = \frac{-27 + 9 \cdot \left[(-15 + 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 1
 D = \frac{-486 + 27 \cdot \left[(-7 + 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (- 7 - 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{12} + 81
 \]
 
+***********************************************************************************(Removed a piece of section 3.2)
+
+\begin{align*} 
+     3 \cdot 9 \cdot C^2 +  3 \cdot 9 ^2 \cdot C + 9 ^3 = 3 \cdot 27 \cdot B^2 +  3 \cdot 27 ^2 \cdot B + 27 ^3
+\end{align*}
