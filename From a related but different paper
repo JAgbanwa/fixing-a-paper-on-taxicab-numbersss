@@ -707,3 +707,44 @@ A table of the first 10 values from $c_1 = 0$ to $9$ for $m = 4$ can be found he
 \subsection{\texorpdfstring{$m = 5$}{m = 5}}
 
 Tabular results of the first ten values from $c_1 = 0$ to $9$ for the case $m = 3$ is found here \cite{agbanwa_tabular_m5}. 
+
+***********************************************************************************(Removed a piece of section 3.6)
+
+\begin{theorem}[Complete Parametrisation of Solutions]
+All integer solutions $(B,C)$ of
+\begin{align}
+6561\,C^2 + 14348907\,C + 10460353203
+=
+19683\,B^2 + 129140163\,B + 282429536481
+\end{align}
+are given by
+\[
+\boxed{
+\begin{aligned}
+A_6 &=
+\frac{-4374
++ 729\Big[(15-7\sqrt{3})(7-4\sqrt{3})^{c_1}
++ (15+7\sqrt{3})(7+4\sqrt{3})^{c_1}\Big]}{4} + 2187 \\
+B_6 &=
+\frac{-13122
++ 729\Big[(7-5\sqrt{3})(7-4\sqrt{3})^{c_1}
++ (7+5\sqrt{3})(7+4\sqrt{3})^{c_1}\Big]}{4},\\[6pt]
+C_6 &=
+\frac{-4374
++ 729\Big[(15-7\sqrt{3})(7-4\sqrt{3})^{c_1}
++ (15+7\sqrt{3})(7+4\sqrt{3})^{c_1}\Big]}{4},\\
+D_6 &=
+\frac{-13122
++ 729\Big[(7-5\sqrt{3})(7-4\sqrt{3})^{c_1}
++ (7+5\sqrt{3})(7+4\sqrt{3})^{c_1}\Big]}{4} + 6561.\\
+\end{aligned}
+}
+\]
+where $c_1\in\mathbb{Z}$.
+\end{theorem}
+
+The given Diophantine equation admits infinitely many integer solutions
+$(B,C)$, parametrised by powers of the Pell unit $7+4\sqrt{3}$ as above.
+\qed
+
+
