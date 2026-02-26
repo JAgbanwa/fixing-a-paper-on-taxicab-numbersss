@@ -747,4 +747,25 @@ The given Diophantine equation admits infinitely many integer solutions
 $(B,C)$, parametrised by powers of the Pell unit $7+4\sqrt{3}$ as above.
 \qed
 
+***********************************************************************
+
+\subsubsection{Reduction to a Pell equation}
+
+Define
+\[
+X = 2C + 3^7, \qquad Y = 2B + 3^8.
+\]
+Then
+\begin{align}
+X^2 - 3Y^2 = 78 \cdot 3^{12}.
+\end{align}
+
+Write
+\[
+X = 3^6 \cdot x, \qquad Y = 3^6 \cdot y.
+\]
+Dividing through by $3^{12}$ yields the Pell-type equation
+\begin{align}
+x^2 - 3y^2 = 78
+\end{align}
 
