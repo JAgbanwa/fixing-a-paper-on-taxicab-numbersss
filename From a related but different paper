@@ -1631,4 +1631,27 @@ Since conjugate terms occur symmetrically, both $B$ and $C$ are integers
 for all $k\in\mathbb{Z}$.
 \end{proof}
 
+****************************(removed this section)
+
+\subsubsection{\texorpdfstring{$m = 0$}{m = 0}}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|r r r r r}
+\hline
+$k$ & $A$ & $B$ & $C$ & $D$ & $A^3 + B^3$ \\
+\hline
+1 & 12 & 1 & 9 & 10 & 1729 \\
+2 & 39 & 17 & 36 & 26 & 62236 \\
+3 & 141 & 76 & 138 & 85 & 3088377 \\
+4 & 522 & 296 & 519 & 305 & 168795496 \\
+5 & 1944 & 1117 & 1941 & 1126 & 8598494785 \\
+6 & 7251 & 4181 & 7248 & 4190 & 438507773332 \\
+7 & 27057 & 15616 & 27054 & 15625 & 22340269957809 \\
+8 & 100974 & 58292 & 100971 & 58301 & 1138827670139208 \\
+9 & 376836 & 217561 & 376833 & 217570 & 58076487933292617 \\
+\hline
+\end{tabular}
+\caption{Values of $A,B,C,D$ and $A^3+B^3$ for $m=0$ and $k=0,\dots,9$.}
+\end{table}
 
