@@ -1920,3 +1920,14 @@ This confirms that the two families of generators presented in
 Theorems~\ref{thm:Pell11} and \ref{thm:Pell13} together account
 for all solutions, and no further generator families exist.
 \end{proof}
+
+*********************************************************
+
+Given Theorem ~\ref{thm:Pell12}, the above closed form formulas for numbers expressible as a sum of two cubes in two distinct ways is more generally expressible as:
+
+\begin{align*}
+     A_m &= \frac{-2 \cdot 3^{m+1} + 3^m \cdot \left[(9 + \sqrt{3}) \cdot \left(x_0+ y_0\sqrt{3}\right)^{k} + (9 - \sqrt{3})(x_0 -y_0\sqrt{3})^{k}\right]}{4} + 3^{m+1} \\
+    B_m &= \frac{-2 \cdot 3^{m+2} + 3^{m} \cdot \left[(1 + 3\sqrt{3})(x_0 + y_0\sqrt{3})^{k} - (3\sqrt{3}-1)(x_0-y_0\sqrt{3})^{k}\right]}{4} \\
+    C_m &= \frac{ -2 \cdot 3^{m+1} + 3^m \cdot \left[(9 + \sqrt{3})(x_0+y_0\sqrt{3})^{k} + (9 - \sqrt{3})(x_0-y_0\sqrt{3})^{k}\right]}{4} \\
+    D_m &= \frac{-2 \cdot 3^{m+2} + 3^{m} \cdot \left[(1 + 3\sqrt{3})(x_0+y_0\sqrt{3})^{k} - (3\sqrt{3}-1)(x_0-y_0\sqrt{3})^{k}\right]}{4} + 3^{m+2}
+\end{align*}
