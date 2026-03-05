@@ -1959,3 +1959,33 @@ $m$ & $B$ & $C$ \\
 \end{tabular}
 \end{table}
 
+
+
+just be here again:
+
+
+\section{Table of formulas}
+
+In the table below, we tabulate the resulting closed form formulas for the first 9 values for $B,C$ when $m = 0,...,8$.
+
+\begin{table}[h]
+\centering
+\caption{Solutions to \( A^3 + B^3 = C^3 + D^3 \)}
+\label{tab:solutions}
+\begin{tabular}{cccc}
+\toprule
+$m$ & $B$ & $C$ \\
+\midrule
+0 & $\frac{-18 + \left[ (7 - 5\sqrt{3})(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3})(7 + 4\sqrt{3})^{c_1} \right]}{4}$ & $\frac{-6 + \left[ (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3})(7 + 4\sqrt{3})^{c_1} \right]}{4}$ \\
+1 & $\frac{-54 + 3 \cdot \left[ (7 - 5\sqrt{3})(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3})(7 + 4\sqrt{3})^{c_1} \right]}{4}$ & $\frac{-18 + 3 \cdot \left[ (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3})(7 + 4\sqrt{3})^{c_1} \right]}{4}$ \\
+2 & $\frac{-162 + 9 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-54 + 9 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
+3 & $\frac{-486 + 27 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-162 + 27 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
+4 & $\frac{-1458 + 81 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-486 + 81 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
+5 & $\frac{-4374 + 243 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-1458 + 243 \cdot \left[(15-  7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
+6 & $\frac{-13122 + 729 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-4374 + 729 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$\\
+7 & $\frac{-39366 + 2187 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 +5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-13122 + 2187 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
+8 & $\frac{-118098 + 6561 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-39366 + 6561 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
