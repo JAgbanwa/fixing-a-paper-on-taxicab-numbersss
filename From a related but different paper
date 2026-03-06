@@ -2009,3 +2009,17 @@ Expressing $X = 3 \cdot x$ and $Y = 3 \cdot y$, this further reduces to
 \end{table}
 
 Table ~\ref{tab:solutions} show the results from the case $k = 2 \cdot c_1$ with regards to the above closed form form formulas.
+
+*******************************************
+
+Consequently equation \eqref{0.98} has the following closed form formulas for $(B,C)$:
+
+\begin{align*}
+    B_m &= \frac{-2 \cdot 3^{m+2} + 3^{m} \cdot \left[(1 + 3\sqrt{3})(x_0+y_0\sqrt{3})^{k} - (3\sqrt{3}-1)(x_0-y_0\sqrt{3})^{k}\right]}{4} \\
+    C_m &= \frac{ -2 \cdot 3^{m+1} + 3^m \cdot \left[(9 + \sqrt{3})(x_0+y_0\sqrt{3})^{k} + (9 - \sqrt{3})(x_0-y_0\sqrt{3})^{k}\right]}{4}
+\end{align*}
+where $r_{3,1} = 3^m$ and $r_{3,2} = 3^{m+1}$ and  $m \geq 0$. Since $A = C + r_{3,1}$ and $D = B + r_{3,2}$,
+\begin{align*}
+    A_m &= \frac{-2 \cdot 3^{m+1} + 3^m \cdot \left[(9 + \sqrt{3})(x_0+y_0\sqrt{3})^{k} + (9 - \sqrt{3})(x_0-y_0\sqrt{3})^{k}\right]}{4} + 3^{m+1} \\
+    D_m &= \frac{-2 \cdot 3^{m+2} + 3^{m} \cdot \left[(1 + 3\sqrt{3})(x_0+y_0\sqrt{3})^{k} - (3\sqrt{3}-1)(x_0-y_0\sqrt{3})^{k}\right]}{4} + 3^{m+2} \\
+\end{align*}
