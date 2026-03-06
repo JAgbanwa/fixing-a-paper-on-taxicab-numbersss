@@ -1987,6 +1987,25 @@ $m$ & $B$ & $C$ \\
 8 & $\frac{-118098 + 6561 \cdot \left[(7 - 5\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (7 + 5\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ & $\frac{-39366 + 6561 \cdot \left[(15 - 7\sqrt{3})\cdot(7 - 4\sqrt{3})^{c_1} + (15 + 7\sqrt{3}) \cdot (7 + 4\sqrt{3})^{c_1}\right]}{4}$ \\
 \bottomrule
 \end{tabular}
+
+*******************************************
+
+\begin{lemma}[Reduction to a Pell Equation]
+
+Equation \eqref{2.15} is equivalent, under the change of variables to
+
+\[
+X = 2C + 3^2, \qquad Y = 2B + 3^3,
+\]
+to the Pell-type equation
+\begin{align}
+X^2 - 3Y^2 = 78 \cdot 3^{2}.
+\end{align}
+Expressing $X = 3 \cdot x$ and $Y = 3 \cdot y$, this further reduces to
+\begin{equation*}
+    x^2 - 3y^2 = 78
+\end{equation*}
+\end{lemma}
 \end{table}
 
 Table ~\ref{tab:solutions} show the results from the case $k = 2 \cdot c_1$ with regards to the above closed form form formulas.
