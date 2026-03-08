@@ -2044,3 +2044,176 @@ where $r_{3,1} = 3^m$ and $r_{3,2} = 3^{m+1}$ and  $m \geq 0$. Since $A = C + r_
 
 
 [caption=Magma verification of taxicab families, label=lst:magma-verify]
+
+*****************************************(case 1,2,3)*************************************************
+
+\subsection{\texorpdfstring{Case 1: $r_{3,1} = 9$, $r_{3,2} = 27$ }{Case 1: r_{3,1} = 9, r_{3,2} = 27}}
+
+We consider the equation 
+
+\begin{equation} \label{2.15}
+    27 \cdot C^2 +  243 \cdot C + 729 = 81 \cdot B^2 +  2187 \cdot B + 19683
+\end{equation}
+
+Equation \eqref{2.15} is re-expressed as
+
+\begin{equation} \label{2.16}
+    3^3 \cdot C^2 + 3^{5} \cdot C + 3^{6} = 3^4 \cdot B^2 + 3^{7} \cdot B + 3^{9}
+\end{equation}
+
+Dividing through by $3^3$ yields
+
+\begin{equation}
+    C^2 + 3^2 \cdot C + 3^{3} = 3 \cdot B^2 + 3^4 \cdot B + 3^{6}
+\end{equation}
+
+\begin{align*}
+C^2 + 3^2 \cdot C + 3^{3} &= 3 \cdot B^2 + 3^4 \cdot B + 3^{6}\\
+C^2 + 2 \cdot \dfrac{3^2}{2} \cdot C + 3^{3} &= 3 \cdot \left(B^2 + 3^3 \cdot B + 3^{5}\right)\\
+C^2 + 2 \cdot \dfrac{3^2}{2} \cdot C + 3^{3} + \left(\dfrac{3^2}{2}\right)^2 - \left(\dfrac{3^2}{2}\right)^2 &= 3 \cdot \left(B^2 + 2 \cdot \dfrac{3^3}{2} \cdot B + 3^{5} + \left(\dfrac{3^3}{2}\right)^2 - \left(\dfrac{3^3}{2}\right)^2\right)\\
+\left(C + \dfrac{3^2}{2}\right)^2 + 3^{3} - \left(\dfrac{3^2}{2}\right)^2 &= 3 \cdot \left(\left(B + \dfrac{3^3}{2}\right)^2 + 3^{5}  - \left(\dfrac{3^3}{2}\right)^2\right)\\
+\left(C + \dfrac{3^2}{2}\right)^2 + 3^{3} - \left(\dfrac{3^2}{2}\right)^2 &= 3 \cdot \left(B + \dfrac{3^3}{2}\right)^2 + 3 \cdot \left(3^{5}  - \left(\dfrac{3^3}{2}\right)^2\right)\\
+\left(C + \dfrac{3^2}{2}\right)^2 - 3 \cdot \left(B + \dfrac{3^3}{2}\right)^2  &= 3 \cdot \left(3^{5}  - \left(\dfrac{3^3}{2}\right)^2\right) + \left(\dfrac{3^2}{2}\right)^2 - 3^{3}\\
+\left(C + \dfrac{3^2}{2}\right)^2 - 3 \cdot \left(B + \dfrac{3^3}{2}\right)^2  &= \dfrac{351}{2}\\
+\left(2C + 3^2\right)^2 - 3 \cdot \left(2B + 3^3\right)^2 = 78 \cdot 3^{2}
+\end{align*}
+
+
+This section focuses on the instance of $n = 2$ which yields $(x_0, y_0) = (7,4)$.
+
+Thus
+\begin{align*}
+     C &= \frac{X - 3^2}{2} \\
+       &= \frac{-3^2 + 3 \cdot \dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{2}}{2}\\[4pt]
+       &= \frac{-18 + 3 \cdot \biggl[(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}\biggl]}{4},\\[8pt]
+    B &= \frac{Y - 3^{3}}{2} \\
+      &= \frac{-3^3 + 3 \cdot \dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} - (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{2\sqrt{3}}}{2}\\
+      &= \frac{-54 + 3 \cdot \biggl[\dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} - (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{\sqrt{3}}\biggl]}{4}\\
+      &= \frac{-54 + 3 \cdot \biggl[{(5 \sqrt{3} + 7)(7 + 4\sqrt{3})^{k} + (7 - 5 \sqrt{3})(7 - 4\sqrt{3})^{k}}\biggl]}{4}\\
+    \end{align*}
+
+Given $A = C + 9$ and $D = B + 27$,
+
+\[
+\boxed{
+\begin{aligned}
+A &=
+ \frac{-18 + 3 \cdot \biggl[(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}\biggl]}{4} + 9,\\[6pt]
+D &=
+\frac{-54 + 3 \cdot \biggl[{(5 \sqrt{3} + 7)(7 + 4\sqrt{3})^{k} + (7 - 5 \sqrt{3} )(7 - 4\sqrt{3})^{k}}\biggl]}{4} + 27.
+\end{aligned}
+}
+\]
+
+\subsection{\texorpdfstring{Case 2: $r_{3,1} = 27$, $r_{3,2} = 81$ }{Case 2: r_{3,1} = 27, r_{3,2} = 81}}
+
+Given the equation
+
+\begin{equation} \label{3.00}
+    81 \cdot C^2 +  2187 \cdot C + 19683 = 243 \cdot B^2 + 19683 \cdot B + 531441
+\end{equation}
+
+Equation \eqref{3.00} is expressible as:
+
+\begin{equation} \label{3.01}
+    3^4 \cdot C^2 + 3^{7} \cdot C + 3^{9} = 3^5 \cdot B^2 + 3^{9} \cdot B + 3^{12}
+\end{equation}
+
+Dividing through by $3^4$ yields
+\begin{align}
+C^2 + 3^3 \cdot C + 3^{5} = 3 \cdot B^2 + 3^5 \cdot B + 3^{8}.
+\end{align}
+
+\begin{align*}
+C^2 + 3^3 \cdot C + 3^{5} &= 3 \cdot B^2 + 3^5 \cdot B + 3^{8}\\
+C^2 + 2 \cdot \dfrac{3^3}{2} \cdot C + 3^{5} &= 3 \cdot \left(B^2 + 3^4 \cdot B + 3^{7}\right)\\
+C^2 + 2 \cdot \dfrac{3^3}{2} \cdot C + 3^{5} + \left(\dfrac{3^3}{2}\right)^2 - \left(\dfrac{3^3}{2}\right)^2 &= 3 \cdot \left(B^2 + 2 \cdot \dfrac{3^4}{2} \cdot B + 3^{7} + \left(\dfrac{3^4}{2}\right)^2 - \left(\dfrac{3^4}{2}\right)^2\right)\\
+\left(C + \dfrac{3^3}{2}\right)^2 + 3^{5} - \left(\dfrac{3^3}{2}\right)^2 &= 3 \cdot \left(\left(B + \dfrac{3^4}{2}\right)^2 + 3^{7}  - \left(\dfrac{3^4}{2}\right)^2\right)\\
+\left(C + \dfrac{3^3}{2}\right)^2 + 3^{5} - \left(\dfrac{3^3}{2}\right)^2 &= 3 \cdot \left(B + \dfrac{3^4}{2}\right)^2 + 3 \cdot \left(3^{7}  - \left(\dfrac{3^4}{2}\right)^2\right)\\
+\left(C + \dfrac{3^3}{2}\right)^2 - 3 \cdot \left(B + \dfrac{3^4}{2}\right)^2  &= 3 \cdot \left(3^{7}  - \left(\dfrac{3^4}{2}\right)^2\right) + \left(\dfrac{3^3}{2}\right)^2 - 3^{5}\\
+\left(C + \dfrac{3^3}{2}\right)^2 - 3 \cdot \left(B + \dfrac{3^4}{2}\right)^2  &= \dfrac{3159}{2}\\
+\left(2C + 3^3\right)^2 - 3 \cdot \left(2B + 3^4\right)^2 = 78 \cdot 3^{4}
+\end{align*}
+
+Following the results of Lemma~\ref{lemma1}, since $m = 2$, $X = 2C + 3^3$ and $Y = 2B + 3^{4}$.
+    
+\begin{align*}
+   C &= \frac{X - 3^3}{2}\\
+     &= \frac{-3^3 + 3^2 \cdot \dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{2}}{2}\\[4pt]
+     &= \frac{-54 + 9 \cdot \biggl[(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}\biggl]}{4},\\[8pt]
+   B &= \frac{Y - 3^{4}}{2} \\
+     &= \frac{-3^4 + 3^2 \cdot \dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} - (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{2\sqrt{3}}}{2}\\
+     &= \frac{-162 + 9 \cdot \biggl[\dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} - (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{\sqrt{3}}\biggl]}{4}\\
+     &= \frac{-162 + 9 \cdot \biggl[{(5 \sqrt{3} + 7)(7 + 4\sqrt{3})^{k} + (7 - 5 \sqrt{3})(7 - 4\sqrt{3})^{k}}\biggl]}{4}\\
+    \end{align*}
+
+
+Since $A = C + 27$ and $D = B + 81$,
+
+\[
+\boxed{
+\begin{aligned}
+A &=
+ \frac{-54 + 9 \cdot \biggl[(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}\biggl]}{4} + 27,\\[6pt]
+D &=
+\frac{-162 + 9 \cdot \biggl[{(5 \sqrt{3} + 7)(7 + 4\sqrt{3})^{k} + (7 - 5 \sqrt{3} )(7 - 4\sqrt{3})^{k}}\biggl]}{4} + 81.
+\end{aligned}
+}
+\]
+
+
+\subsection{\texorpdfstring{Case 3: $r_{3,1} = 81$, $r_{3,2} = 243$ }{Case 3: r_{3,1} = 81 , r_{3,2} = 243}}
+
+Given the equation
+
+\begin{equation} \label{4.00}
+    243 \cdot C^2 + 19683 \cdot C + 531441 = 729 \cdot B^2 + 177147 \cdot B + 14348907
+\end{equation}
+
+Equation \eqref{4.00} is also expressible as:
+
+\begin{equation} \label{4.01}
+    3^5 \cdot C^2 + 3^{9} \cdot C + 3^{12} = 3^6 \cdot B^2 + 3^{11} \cdot B + 3^{15}
+\end{equation}
+
+Dividing through by $3^5$ yields
+\begin{align}
+C^2 + 3^4 \cdot C + 3^{7} = 3 \cdot B^2 + 3^6 \cdot B + 3^{10}.
+\end{align}
+
+\begin{align*}
+C^2 + 3^4 \cdot C + 3^{7} &= 3 \cdot B^2 + 3^6 \cdot B + 3^{10}\\
+C^2 + 2 \cdot \dfrac{3^4}{2} \cdot C + 3^{7} &= 3 \cdot \left(B^2 + 3^5 \cdot B + 3^{9}\right)\\
+C^2 + 2 \cdot \dfrac{3^4}{2} \cdot C + 3^{7} + \left(\dfrac{3^4}{2}\right)^2 - \left(\dfrac{3^4}{2}\right)^2 &= 3 \cdot \left(B^2 + 2 \cdot \dfrac{3^5}{2} \cdot B + 3^{9} + \left(\dfrac{3^5}{2}\right)^2 - \left(\dfrac{3^5}{2}\right)^2\right)\\
+\left(C + \dfrac{3^4}{2}\right)^2 + 3^{7} - \left(\dfrac{3^4}{2}\right)^2 &= 3 \cdot \left(\left(B + \dfrac{3^5}{2}\right)^2 + 3^{9}  - \left(\dfrac{3^5}{2}\right)^2\right)\\
+\left(C + \dfrac{3^4}{2}\right)^2 + 3^{7} - \left(\dfrac{3^4}{2}\right)^2 &= 3 \cdot \left(B + \dfrac{3^5}{2}\right)^2 + 3 \cdot \left(3^{9}  - \left(\dfrac{3^5}{2}\right)^2\right)\\
+\left(C + \dfrac{3^4}{2}\right)^2 - 3 \cdot \left(B + \dfrac{3^5}{2}\right)^2  &= 3 \cdot \left(3^{9}  - \left(\dfrac{3^5}{2}\right)^2\right) + \left(\dfrac{3^4}{2}\right)^2 - 3^{7}\\
+\left(C + \dfrac{3^4}{2}\right)^2 - 3 \cdot \left(B + \dfrac{3^5}{2}\right)^2  &= \dfrac{28431}{2}\\
+\left(2C + 3^4\right)^2 - 3 \cdot \left(2B + 3^5\right)^2 = 78 \cdot 3^{6}
+\end{align*}
+
+Given that $m = 3$, following Lemma ~\ref{lemma1}, $X = 2C + 3^4$ and $Y = 2B + 3^{5}$.
+
+\begin{align*}
+    C &= \frac{X - 3^4}{2} \\
+      &= \frac{-3^4 + 3^3 \cdot \dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{2}}{2}\\[4pt]
+      &= \frac{-162 + 27 \cdot \biggl[(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}\biggl]}{4},\\[8pt]
+    B &= \frac{Y - 3^{5}}{2} \\
+      &= \frac{-3^5 + 3^3 \cdot \dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} - (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{2\sqrt{3}}}{2}\\
+      &= \frac{-486 + 27 \cdot \biggl[\dfrac{(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} - (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}}{\sqrt{3}}\biggl]}{4}\\
+      &= \frac{-486 + 27 \cdot \biggl[{(5 \sqrt{3} + 7)(7 + 4\sqrt{3})^{k} + (7 - 5 \sqrt{3})(7 - 4\sqrt{3})^{k}}\biggl]}{4}\\
+\end{align*}
+
+Since $A = C + 81$ and $D = B + 243$,
+
+\[
+\boxed{
+\begin{aligned}
+A &=
+\frac{-162 + 27 \cdot \biggl[(15 + 7\sqrt{3})(7 + 4\sqrt{3})^{k} + (15 - 7\sqrt{3})(7 - 4\sqrt{3})^{k}\biggl]}{4} + 81,\\[6pt]
+D &=
+\frac{-486 + 27 \cdot \biggl[{(5 \sqrt{3} + 7)(7 + 4\sqrt{3})^{k} + (7 - 5 \sqrt{3} )(7 - 4\sqrt{3})^{k}}\biggl]}{4} + 243.
+\end{aligned}
+}
+\]
+
