@@ -2224,3 +2224,12 @@ In a previous paper, we hinted at the possibility of several more examples of ge
 
 
 For each case of $\left(r_{3,1}, r_{3,2}\right)$ covered in every section of this paper, w
+
+
+@misc{agbanwa_pell78_code,
+  author       = {Agbanwa, Jamal},
+  title        = {Codes Finding All Fundamental Seed Positive Integer Solutions to x^2 - 3y^2 = 78},
+  year         = {2026},
+  howpublished = {\url{https://github.com/JAgbanwa/Tabular-results-of-taxicab-numbers/tree/main}},
+  note         = {Accessed: 2026-03-09}
+}
